@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hairi - Academic Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+    }
+    /* Navigation Bar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background: #f9f9f9;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .navbar a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    /* Header with picture */
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .header img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+        margin-right: 25px;
+        object-fit: cover;
+        object-position: center 15%; /* Lower value = more space above head */
+        background: #f0f0f0;
+    }
+    h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    .contact {
+      margin-top: 10px;
+      font-size: 0.95em;
+    }
+    h2 {
+      margin-top: 40px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    a {
+      color: #0066cc;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .spotlight {
+        color: red;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .photo-credit {
+        font-size: 0.8em;
+        color: #666;
+        margin-top: 5px;
+        text-align: center;
+        width: 200px;  /* same as image width */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="#Home">Home</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="students.html">Students</a>
+    <!-- <a href="#awards">Awards</a> -->
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div>
+      <img src="profile_pic.jpg" alt="Hairi">
+      <div class="photo-credit">Photo by Craig Schreiner</div>
+    </div>
+    <div>
+      <h1>Hairi</h1>
+      <p>Assistant Professor<br>
+         Department of Computer Science<br>
+         University of Wisconsin-Whitewater
+      </p>
+      <div class="contact">
+        Email: hairif@uww.edu</a><br>
+        <a href="https://scholar.google.com/citations?user=ena5pycAAAAJ&hl=en">Google Scholar</a> 
+      </div>
+    </div>
+  </div>
+
+  <!-- Sections -->
+  <h2 id="about">About Me</h2>
+  <p>
+    Dr. Hairi (pronounced "Hi-Ree") currently is a tenure-track Assistant Professor in the 
+    Department of Computer Science at the University of Wisconsin-Whitewater (UWW).
+    He received his B.E. and M.E. degrees from Tsinghua University, respectively, 
+    and his Ph.D. degree in Electricial and Computer Engineering from Arizona State University, 
+    fortunately advised by <a href="https://leiying.engin.umich.edu"> Lei Ying</a>. 
+    Prior to joining UWW, he was a postdoctoral researcher at The Ohio State University 
+    and AI-EDGE Institute, fortunately advised by <a href="https://kevinliu-osu.github.io"> Kevin Liu</a>. 
+    </p>
+    <p>
+    His research interests lie in multi-agent reinforcement learning, stochastic modeling and analysis, 
+    machine learning,multi-agent systems and applications of AI in real-world systems.
+  </p>
+
+  <h2 id="publications">Selected Publications</h2>
+  <ul>
+    <li><strong>Finite-Time Global Optimality Convergence in Deep Neural Actor-Critic Methods for Decentralized 
+        Multi-Agent Reinforcement Learning</strong>. Zhiyao Zhang*, Myeung Suk Oh*, <em>Hairi</em>, Ziyue Luo, Alvaro Velasquez and Jia Liu. 
+      <em>ICML 2025</em>. [<a href="https://arxiv.org/pdf/2505.18433?">PDF</a>]</li>
+    <li><strong>Finite-Time Convergence and Sample Complexity of Actor-Critic Multi-Objective Reinforcement Learning</strong>. 
+        <em>Hairi*</em>, Tianchen Zhou*, Haibo Yang, Jia Liu, Tian Tong, Fan Yang, Michinari Momma, and Yan Gao. 
+      <em>ICML 2024</em>. [<a href="https://arxiv.org/pdf/2405.03082?">PDF</a>]</li>
+    <li><strong>Finite-Time Convergence and Sample Complexity of Multi-Agent Actor-Critic Reinforcement Learning with Average Reward</strong>. 
+        <em>Hairi</em>, Jia Liu and Songtao Lu. 
+      <em>ICLR 2022</em> <span class="spotlight">(Spotlight Presentation, spotlight rate: top 5%)</span>. [<a href="https://openreview.net/pdf?id=04pGUg0-pdZ">PDF</a>]</li>
+    <li><strong>Beyond Scaling: Calculable Error Bounds of the Power-of-Two Choices Mean-Field Model in Heavy-Traffic</strong>. 
+        <em>Hairi</em>, Xin Liu and Lei Ying. 
+      <em>MobiHoc 2021</em>. [<a href="https://dl.acm.org/doi/pdf/10.1145/3466772.3467029">PDF</a>]</li>
+    <li><strong>NetDyna: Mining Networked Coevolving Time Series with Missing Values</strong>. 
+        <em>Hairi</em>, Hanghang Tong and Lei Ying. <em>IEEE BigData 2019</em>.[<a href="https://par.nsf.gov/servlets/purl/10167654">PDF</a>]</li>
+  </ul>
+    <p> * Equal contribution </p>
+
+</body>
+</html>
